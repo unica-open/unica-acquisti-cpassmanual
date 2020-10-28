@@ -1,0 +1,41 @@
+<!--
+  ========================LICENSE_START=================================
+  CPASS User Manual
+  %%
+  Copyright (C) 2020 CSI Piemonte
+  %%
+  SPDX-FileCopyrightText: Copyright 2020 | CSI Piemonte
+  SPDX-License-Identifier: CC-BY-4.0
+  =========================LICENSE_END==================================
+  -->
+<assembly xmlns="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/2.0.0 http://maven.apache.org/xsd/assembly-2.0.0.xsd">
+  <id>${i}</id>
+  <formats>
+    <format>zip</format>
+  </formats>
+  <includeBaseDirectory>false</includeBaseDirectory>
+
+  <files>
+    <file>
+      <source>${project.basedir}/src/main/doc/Programma/CPASS-PBA-MULT-MUT-001-v02-Manuale Utente Programmazione Biennale Acquisti.doc</source>
+      <outputDirectory>/Programmazione Biennale Acquisti</outputDirectory>
+      <destName>CPASS-PBA-MULT-MUT-001-Manuale Utente Programmazione Biennale Acquisti.doc</destName>
+    </file>
+    <file>
+      <source>${project.basedir}/src/main/doc/Programma/CPASS-PBA-MULT-MUT-001-v02-Manuale Utente Programmazione Biennale Acquisti.pdf</source>
+      <outputDirectory>/Programmazione Biennale Acquisti</outputDirectory>
+      <destName>CPASS-PBA-MULT-MUT-001-Manuale Utente Programmazione Biennale Acquisti.pdf</destName>
+    </file>
+    <file>
+      <source>${project.basedir}/src/main/doc/Ordini/CPASS-ORD-MULT-MUT-001-v01-Manuale Utente Ordini.docx</source>
+      <outputDirectory>/Ordini</outputDirectory>
+      <destName>CPASS-ORD-MULT-MUT-001-Manuale Utente Ordini.docx</destName>
+    </file>
+    <file>
+      <source>${project.basedir}/src/main/doc/Ordini/CPASS-ORD-MULT-MUT-001-v01-Manuale Utente Ordini.pdf</source>
+      <outputDirectory>/Ordini</outputDirectory>
+      <destName>CPASS-ORD-MULT-MUT-001-Manuale Utente Ordini.pdf</destName>
+    </file>
+  </files>
+
+</assembly>
